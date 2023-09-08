@@ -7,7 +7,7 @@
  const github = document.querySelector('[data-testid="githubURL"]');
  
  // username
- userName.textContent='Joseph Adeiza Suberu';
+ userName.textContent='Adexterity';
 
  // profile pics
  profilePics.setAttribute('src', './joseph.jpg')
@@ -23,12 +23,8 @@
 
  // displaying the time
  function updateTime() {
-     const currentTime = new Date();
-     const hours = currentTime.getUTCHours();
-     const minutes = currentTime.getUTCMinutes();
-     const seconds = currentTime.getUTCSeconds();
-     const timeString = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
-     time.textContent = timeString;
+     const currentTime = Date.now();
+     time.textContent = currentTime;
  }
 
  updateTime();
