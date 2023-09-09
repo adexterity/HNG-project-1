@@ -15,10 +15,10 @@
  // day of the week 
  const date = new Date();
  
- const days = ['Sunday',
-     'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
+ const days = [
+     'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','Sunday'
  ]
- const weekDay = days[date.getDay()];
+ const weekDay = days[date.getDay() - 1];
  day.textContent = weekDay;
 
  // displaying the time
@@ -29,11 +29,11 @@
 
  updateTime();
  //update the clock
- setInterval(updateTime, 1000);
+ setInterval(updateTime, 100);
 
  // track
  track.textContent= 'Frontend';
 
  // github profile
- github.setAttribute('href', 'https://github.com/adexterity')
+ github.setAttribute('href', 'https://github.com/adexterity/HNG-project-1')
  github.textContent = 'Github Profile';
