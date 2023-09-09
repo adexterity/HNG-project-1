@@ -1,16 +1,16 @@
  // selecting HTML elements
- const userName = document.querySelector('[data-testid="slackUserName"]');
- const profilePics = document.querySelector('[data-testid="slackDisplayImage"]');
+//  const userName = document.querySelector('[data-testid="slackUserName"]');
+//  const profilePics = document.querySelector('[data-testid="slackDisplayImage"]');
  const day = document.querySelector('[data-testid="currentDayofTheWeek"]');
  const time = document.querySelector('[data-testid="currentUTCTime"]');
- const track = document.querySelector('[data-testid="myTrack"]');
- const github = document.querySelector('[data-testid="githubURL"]');
+//  const track = document.querySelector('[data-testid="myTrack"]');
+//  const github = document.querySelector('[data-testid="githubURL"]');
  
  // username
- userName.textContent='Adexterity';
+//  userName.textContent='Adexterity';
 
  // profile pics
- profilePics.setAttribute('src', './joseph.jpg')
+//  profilePics.setAttribute('src', './joseph.jpg')
  
  // day of the week 
  const date = new Date();
@@ -35,5 +35,5 @@
  track.textContent= 'Frontend';
 
  // github profile
- github.setAttribute('href', 'https://github.com/adexterity/HNG-project-1')
- github.textContent = 'Github Profile';
+//  github.setAttribute('href', 'https://github.com/adexterity/HNG-project-1')
+//  github.textContent = 'Github Profile';
