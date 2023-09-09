@@ -21,5 +21,5 @@
 
  updateTime();
  //update the clock
- setInterval(updateTime, 100);
+ setInterval(updateTime, 1);
 
