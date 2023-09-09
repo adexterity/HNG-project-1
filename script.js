@@ -29,7 +29,7 @@
 
  updateTime();
  //update the clock
- setInterval(updateTime, 1000);
+ setInterval(updateTime, 100);
 
  // track
  track.textContent= 'Frontend';
