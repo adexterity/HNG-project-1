@@ -53,7 +53,9 @@ padding: 20px;
 
 .github a{
    text-decoration: none;
-   color:crimson;
+   background-color:crimson;
+    padding: 3px;
+    color: white;
 
 
 }
