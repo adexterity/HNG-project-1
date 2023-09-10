@@ -15,31 +15,18 @@ body{
     background-color: black;
 }
 
+h1{
+    margin:10px;
+}
+
 img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
-.name{
-    margin-bottom:20px;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 700;
-    color:crimson;
-}
 
-.date{
-    margin-top: 20px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.track{
-    margin-top: 20px;
-    font-size: 20px;
+h2{
+    margin: 10px;
 }
 
 a{

@@ -1,7 +1,7 @@
  // selecting HTML elements
 
- const day = document.querySelector('.day');
- const time = document.querySelector('.time');
+ const day = document.querySelector('[data-testid="currentDayOfTheWeek"]');
+ const time = document.querySelector('[data-testid="currentUTCTime"]');
 
  
  // day of the week 
