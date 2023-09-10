@@ -54,7 +54,8 @@ padding: 20px;
 .github a{
    text-decoration: none;
    background-color:crimson;
-    padding: 3px;
+    padding: 3px 5px;
+    border-radius: 5px;
     color: white;
 
 
