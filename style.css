@@ -8,18 +8,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     color: crimson;
+    padding: 20px;
+    background-color: black;
 }
 
-.container{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-border: 2px solid crimson;
-padding: 20px;
-}
 .profile-pics img{
     width: 200px;
     height: 200px;
