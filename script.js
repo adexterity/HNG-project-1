@@ -8,9 +8,9 @@
  const date = new Date();
  
  const days = [
-     'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday','Sunday'
+    'Sunday','Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'
  ]
- const weekDay = days[date.getDay() - 1];
+ const weekDay = days[date.getDay()];
  day.textContent = weekDay;
 
  // displaying the time
